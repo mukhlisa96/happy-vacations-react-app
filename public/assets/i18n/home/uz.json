@@ -1,0 +1,163 @@
+{
+  "find_destination": "Qayerga boramiz?",
+  "qaerga_to": "Joy tanlang",
+  "select_date": "Sanani tanlang",
+  "tour_type": "Sayohat turi",
+  "hero_form_button": "So'rov Yuboring",
+
+  "default_city": "Joy tanlang",
+  "city1": "Samarqand",
+  "city2": "Buxoro",
+  "city3": "Xiva",
+  "city4": "Toshkent",
+
+  "default_tour_type": "Sayohat turini tanlang",
+  "ttype1": "Asal oyi",
+  "ttype2": "Yozgi ta'til",
+  "ttype3": "Haj",
+
+  "banner_image_h_1": "Makka va Madina",
+  "banner_image_sub_h_1": "Orzularingizni ro'yobga chiqaring",
+
+  "banner_image_h_2": "O'zbekiston",
+  "banner_image_sub_h_2": "Markaziy Osiyoning yuragi",
+
+  "banner_image_h_3": "Yevropaga boring",
+  "banner_image_sub_h_3": "Biz bilan dunyoni kashf eting",
+
+  "banner_image_h_4": "Misr",
+  "banner_image_sub_h_4": "Boy tarixga ega sahrolar",
+
+  "black_line_text": "Ochilish munosabati bilan har bir sayohat uchun 20% chegirma",
+
+  "travel_category_sub_h": "Biz sizga bir umrga unutilmas taassurot qoldiradigan eng yaxshi turlarni taklif qilishga tayyormiz.",
+  "travel_category_h": "Sayohat turlari",
+
+  "t_cat_h_1": "Malayziya",
+  "t_cat_sub_h_1": "2 ta tur",
+  "t_cat_p_1": "Malay, xitoy, hind va Yevropa urf-odatlari ta'sirida plyajlari, tropik o'rmonlari va o'ziga xos madaniyati bilan mashhur.",
+
+  "t_cat_h_2": "BAA",
+  "t_cat_sub_h_2": "5 ta tur",
+  "t_cat_p_2": "Dunyodagi eng baland osmono'par bino Burj Xalifa, o'ziga xos uslubdagi ulkan savdo markazlari va ko'ngilochar maskanlar sayyohlarni o'ziga jalb qiladi.",
+
+  "t_cat_h_3": "Saudiya Arabistoni",
+  "t_cat_sub_h_3": "2 ta tur",
+  "t_cat_p_3": "Arabiston yarim orolining katta qismini egallagan va Qizil dengiz va Fors ko'rfazi suvlari bilan yuvilgan cho'l bilan qoplangan davlat.",
+
+  "t_cat_h_4": "Misr",
+  "t_cat_sub_h_4": "6 ta tur",
+  "t_cat_p_4": "Besh ming yildan ortiq tarixga ega bo'lgan boy tarix Nil daryosining unumdor vodiysidagi arxeologik joylarni eslatadi.",
+
+  "t_cat_h_5": "Turkiya",
+  "t_cat_sub_h_5": "3 ta tur",
+  "t_cat_p_5": "Madaniyati qadimgi yunon, fors, rim, vizantiya va usmonli an'analarini birlashtirgan janubi-sharqiy Yevropa va janubi-g'arbiy Osiyodagi davlat.",
+
+  "t_cat_h_6": "O'zbekiston",
+  "t_cat_sub_h_6": "10 ta tur",
+  "t_cat_p_6": "Xitoy va Oʻrta yer dengizi oʻrtasidagi qadimiy savdo yoʻli Buyuk Ipak yoʻli boʻylab qurilgan masjidlari, maqbaralari va inshootlari bilan mashhur.",
+
+  "t_cat_h_7": "Misr",
+  "t_cat_sub_h_7": "4 tur+",
+  "t_cat_p_7": "Besh ming yildan ortiq tarixga ega bo'lgan boy tarix Nil daryosi vodiysidagi unumdor arxeologik joylarni eslatadi.",
+
+  "t_cat_h_8": "Hindiston",
+  "t_cat_sub_h_8": "2 ta tur",
+  "t_cat_p_8": "Janubiy Osiyodagi turli topografiyaga ega ulkan mamlakat: uning hududi Himoloy tog' cho'qqilarini ham, Hind okeani qirg'oqlarini ham o'z ichiga oladi.",
+
+  "tour_block_h": "Yangi va eng mashhur sayohatlarni ko'rib chiqing",
+  "tour_block_sub_h": "Sayohat turlari",
+
+  "tour_buy_button": "Onlayn xarid qilish",
+
+  "tour_name_1": "Malayziya safari",
+  "tour_group_1": "5 kishi",
+  "tour_duration_1": "8 kun",
+  "tour_cost_1": "$250",
+
+  "tour_name_2": "Misr safari",
+  "tour_group_2": "20 kishi",
+  "tour_duration_2": "5 kun",
+  "tour_cost_2": "$250",
+
+  "tour_name_3": "Turkiya safari",
+  "tour_group_3": "5 kishi",
+  "tour_duration_3": "5 kun",
+  "tour_cost_3": "$250",
+
+  "tour_name_4": "Umra",
+  "tour_group_4": "10 kishi",
+  "tour_duration_4": "5 kun",
+  "tour_cost_4": "$250",
+
+  "tour_name_5": "Haj",
+  "tour_group_5": "15 kishi",
+  "tour_duration_5": "5 kun",
+  "tour_cost_5": "$250",
+
+  "sale_h": "Biz bilan hoziroq bog'laning va 20% chegirmaga ega bo'ling",
+  "sale_button_text": "Hozir qo'ng'iroq qiling",
+
+  "video_block_h": "Sayohatlardan kadrlar tomosha qiling!",
+  "video_block_sub_h": "Keling, birga sarguzashtni boshlaymiz!",
+
+  "about_h": "Biz siz uchun maroqli sayohatlarni tashkil etamiz",
+  "about_sub_h": "Biz haqimizda",
+  "about_p": "Happy Vacations - bu butun dunyo bo'ylab unutilmas sayohatlarni tashkil qilishda yordam beradigan sayyohlik agentligi. Biz barcha toifadagi sayohatchilar uchun turlarning keng tanlovini taklif etamiz - ikki kishilik romantik sayohatlardan tortib, bolalar bilan oilaviy dam olishgacha.",
+  "about_small_h": "To'g'ridan-to'g'ri +998 90 122 68 88 raqamiga qo'ng'iroq qilib, mutaxassislarimiz bilan gaplashing",
+  "about_p2": "Bizning professionallar jamoamiz sayohatingizning har bir narsani siz uchun tashkil qilishadi:",
+
+  "about_li_1": "Chiptalarni bron qilish",
+  "about_li_2": "Mehmonxonalarni bron qilish",
+  "about_li_3": "Alohida marshrut va ekskursiyalarni ishlab chiqish.",
+
+  "about_button_text": "Batafsil ma'lumot",
+
+  "packages_block_h": "Ajoyib paketlarni taklif etamiz",
+  "packages_block_sub_h": "Mavjud paketlar",
+
+  "package_1_h": "Turkiya bo'ylab sayohat qiling",
+  "package_1_red_sub": "1200$ dan boshlab",
+  "package_1_black_sub": "Instanbul madaniyatini o'rganish va Turkiyaning Mustaqillik haftaligini nishonlashda bizga qo'shiling!",
+  "package_1_p": "Turkiya arzon narxlari va sayyohlik turlarining xilma-xilligi bilan dam olish uchun mashhur bo'lgan boshqa mamlakatlardan ajralib turadi. Qaysi joyni tanlamasligingizdan qat'iy nazar, u hamma birlashish tamoyili asosida quriladi. Va gap shunchaki emas. mehmonxonada qolish.Har qanday mashhur kurort bolalar va kattalar uchun barcha ko'ngilochar va tadbirlar yig'indisidir.",
+  "package_1_li1": "Professional sayohat qo'llanma",
+  "package_1_li2": "Aeroportga qaytish transporti",
+  "package_1_li3": "Yuklarni tashish uchun transport xarajatlari",
+  "package_1_button_text": "Bron qilish",
+
+  "package_2_h": "15% chegirmadan foydalaning, band qiling.",
+  "package_2_red_sub": "1200$ dan boshlab",
+  "package_2_black_sub": "Qaysi dam olish maskanini tanlamasligingizdan qat'iy nazar, noyob ta'tilingizdan aynan nimani xohlayotganingizni topasiz.",
+  "package_2_p": "Suv parklari va delfinariylar, qahvaxonalar va do'konlar, asrlar davomida o'zgarmagan tarixiy diqqatga sazovor joylar va noyob joylar, rivojlangan infratuzilmaga ega zamonaviy mehmonxonalar, mazali yangi taomlar, ochiq havoda dam olish imkoniyatlari - Turkiyaning har bir burchagi mo''jizalarga to'la. .",
+  "package_2_li1": "Halong ko'rfaziga sayohatlar, tushlik va kechki ovqatlar bilan tungi kruiz",
+  "package_2_li2": "Aeroportga qaytish transporti ",
+  "package_2_li3": "Professional gid va haydovchilar",
+  "package_2_button_text": "Bron qilish",
+
+  "testi_h": "Mijozlarimiz fikri bilan tanishing ...",
+  "testi_sub_h": "Testimonial",
+
+  "testi_text_1": "Biz qizimiz bilan Turkiyada dam olmoqchi edik va do'stimizning tavsiyasiga ko'ra Happy Vacations sayyohlik agentligi bilan bog'landik. Menejerlar bizning turimizni samarali tashkil qilishdi. Mehmonxona hududi ajoyib jihozlangan, dengiz piyoda masofada joylashgan. oziq-ovqat va ichimliklar juda xilma-xil va yuqori sifatli. ",
+  "testi_name_1": "Munira Abbosova",
+
+  "testi_text_2": "Misrga sayohat ajoyib bo'ldi. Ayniqsa, mehmonxonaning animatsiyasi meni quvontirdi: diskotekalar, konsertlar, sport tadbirlari. Tushlik va kechki ovqat jonli musiqa va pianino chalish bilan birga bo'ldi. U erga kelasi yili borishga umid qilamiz",
+  "testi_name_2": "Mahliyo Yunusova",
+
+  "faq_h": "Ko'p beriladigan savollar",
+  "faq_sub_h": "Eng ko'p so'ralayotgan savol va javoblar",
+
+  "q1": "01. To'y sayohatlari uchun eng yaxshi joylar qaysi?",
+  "a1": "To'y sayohatingiz unitilmas o'tishi uchun Happy Vacation turizm agentligi go'zal shaxarlar ro'yxatini taqdim etadi. Tanlang va miriqib dam oling.",
+
+  "q2": "02.Xalqaro paketlarni taklif qilasizmi?",
+  "a2": "Ha. Siz xalqaro to'plamlar ro'yxatini veb-saytimizning Mashhur sayohatlar bo'limida ko'rishingiz mumkin",
+
+  "q3": "03. Paketingizni siz bilan moslashtira olamizmi?",
+  "a3": "Biz uchun mijozning qoniqishi juda muhim. Shuning uchun biz sizning barcha talab va istaklaringizni inobatga olamiz",
+
+  "q4": "04. Nima uchun paketimizni band qilishimiz kerak?",
+  "a4": "Hammasi siz uchun professional turoperator tomonidan tartibga solinadi, u sizga yo'lboshchi, marshrut va boshqa sayohatchilar guruhini ham taqdim etadi. Shunday qilib, vaqt va kuchingizni tejashingiz hamda sayohatingizdan zavq olishga e'tiboringizni qaratasiz. .",
+
+  "blog_h": "Sayohat bo'yicha maslahatlar bilan yangilanib turing!",
+  "blog_sub": "Blog va yangiliklar"
+}

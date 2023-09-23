@@ -1,0 +1,34 @@
+{
+  "navbar_button": "Pay Online",
+
+  "nav_li_1": "Categories",
+  "nav_li_2": "Tours",
+  "nav_li_3": "About",
+  "nav_li_4": "Testimonial",
+  "nav_li_5": "Q&A",
+  "nav_li_6": "CONTACTS",
+
+  "newsletter": "We will call you back!",
+  "footer_input_ph": "Email",
+  "footer_button_text": "Send",
+
+  "footer_h1": "Popular tours",
+
+  "f_li_11": "Turkey tour",
+  "f_li_12": "Malaysia tour",
+  "f_li_13": "Egypt tour",
+  "f_li_14": "Umra",
+
+  "footer_h2": "About Us",
+
+  "f_li_21": "Packages",
+  "f_li_22": "Tours",
+  "f_li_23": "Q & A",
+  "f_li_24": "Partners",
+
+  "footer_h3": "Contact Us",
+
+  "address": "Yunusobod dstr, Proezd 8 str, 18",
+  "copywright": "© 2023 HAPPY VACATIONS",
+  "wrights": " All rights reserved"
+}

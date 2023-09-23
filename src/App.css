@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.swiper-wrapper {
+    transition-timing-function: linear;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sw-slider {
+    padding: 45px 50px;
+    min-height: 150px;
+    border: 1px solid rgb(226, 50, 50);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.accordion__item {
+    background-color: white;
+    margin: 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.accordion {
+    border: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+[aria-expanded="false"] {
+    -webkit-transition: max-height 0.8s, opacity 0.2s 0.1s, visibility 0s 4s;
+    -moz-transition: max-height 0.8s, opacity 0.2s 0.1s, visibility 0s 4s;
+    -ms-transition: max-height 0.8s, opacity 0.2s 0.1s, visibility 0s 4s;
+    -o-transition: max-height 0.8s, opacity 0.2s 0.1s, visibility 0s 4s;
+    transition: max-height 0.8s, opacity 0.2s 0.1s, visibility 0s 4s;
+    max-height: 80px;
+    display: block;
+    overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+[aria-expanded="true"] {
+    -webkit-transition: max-height 0.8s, opacity 0.2s, visibility 0s;
+    -moz-transition: max-height 0.8s, opacity 0.2s, visibility 0s;
+    -ms-transition: max-height 0.8s, opacity 0.2s, visibility 0s;
+    -o-transition: max-height 0.8s, opacity 0.2s, visibility 0s;
+    transition: max-height 0.8s, opacity 0.2s, visibility 0s;
+    max-height: 200px;
+}
+
+.lg {
+    background: linear - gradient(152.97deg, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.12))
+}
+
+.w-logo {
+    height: 90px;
+    width: auto;
+}
+
+.langImg {
+    height: 20px;
+
+
+
+}
+
+@media (max-width: 992px) {
+    .langImg {
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+}
+
+.ptImages {
+    height: 300px;
+    object-fit: cover;
+}
+
+.footerInput>input.form-control {
+    padding-left: 20%;
 }

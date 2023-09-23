@@ -1,0 +1,29 @@
+{
+  "0": {
+    "icon": "",
+    "name": "Haj",
+    "amount": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gravida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare mauris ac quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  },
+
+  "1": {
+    "icon": "",
+    "name": "Travels around Uzbekistan",
+    "amount": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gravida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare mauris ac quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  },
+
+  "2": {
+    "icon": "",
+    "name": "Europe Tours",
+    "amount": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gravida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare mauris ac quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  },
+
+  "3": {
+    "icon": "Umra",
+    "name": "Haj",
+    "amount": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gravida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare mauris ac quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  }
+}

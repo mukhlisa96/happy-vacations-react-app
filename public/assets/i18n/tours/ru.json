@@ -1,0 +1,29 @@
+{
+  "0": {
+    "икона": "",
+    "имя": "Хадж",
+    "сумма": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gradida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare ma Урис Ак quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  },
+
+  "1": {
+    "икона": "",
+    "name": "Путешествия по Узбекистану",
+    "сумма": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gradida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare ma Урис Ак quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  },
+
+  "2": {
+    "икона": "",
+    "name": "Туры по Европе",
+    "сумма": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gradida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare ma Урис Ак quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  },
+
+  "3": {
+    "icon": "Умра",
+    "имя": "Хадж",
+    "сумма": "10",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis nunc augue, quis pharetra dolor lacinia ut. Morbi consequat nibh gradida quam facilisis, vel porttitor nunc pharetra. Suspendisse ultrices ipsum in nibh iaculis hendrerit. Mauris ornare ma Урис Ак quam dictum varius. Praesent fringilla odio nec ullamcorper interdum."
+  }
+}

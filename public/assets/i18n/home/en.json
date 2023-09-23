@@ -1,0 +1,163 @@
+{
+  "find_destination": "Discover your next adventure",
+  "where_to": "Where to",
+  "select_date": "Select date",
+  "tour_type": "Tour type",
+  "hero_form_button": "Enquire now",
+
+  "default_city": "Where to ?",
+  "city1": "Samarkand",
+  "city2": "Bukhara",
+  "city3": "Khiva",
+  "city4": "Tashkent",
+
+  "default_tour_type": " Choose tour type",
+  "ttype1": "Honey moon",
+  "ttype2": "Summer Vacation",
+  "ttype3": "Haj",
+
+  "banner_image_h_1": "Mekkah and Madina",
+  "banner_image_sub_h_1": "Make your dreams come true",
+
+  "banner_image_h_2": "Uzbekiston",
+  "banner_image_sub_h_2": "Heart of central Asia",
+
+  "banner_image_h_3": "Go to Europe",
+  "banner_image_sub_h_3": "Explore world with us",
+
+  "banner_image_h_4": "Egypt",
+  "banner_image_sub_h_4": "Desserts with rich history",
+
+  "black_line_text": "20% discount for every trip on the occasion of the opening",
+
+  "travel_category_sub_h": "We are ready to offer you the best tours that will leave unforgettable impressions for a lifetime.",
+  "travel_category_h": "Our Popular Tours Type",
+
+  "t_cat_h_1": "Malaysia",
+  "t_cat_sub_h_1": "2 Tours+",
+  "t_cat_p_1": "Famous for its beaches, rainforests and original culture, influenced by Malay, Chinese, Indian and European traditions.",
+
+  "t_cat_h_2": "UAE",
+  "t_cat_sub_h_2": "5 Tours+",
+  "t_cat_p_2": "Tourists are attracted by the world's tallest skyscraper, Burj Khalifa, huge shopping centers and entertainment venues in a distinctive style.",
+
+  "t_cat_h_3": "Saudi Arabia",
+  "t_cat_sub_h_3": "2 Tours+",
+  "t_cat_p_3": "Desert-covered state that occupies most of the Arabian Peninsula and is washed by the waters of the Red Sea and the Persian Gulf.",
+
+  "t_cat_h_4": "Egypt",
+  "t_cat_sub_h_4": "6 Tours+",
+  "t_cat_p_4": "Rich history, dating back more than five thousand years, is reminiscent of archaeological sites in the fertile Nile River valley.",
+
+  "t_cat_h_5": "Turkey",
+  "t_cat_sub_h_5": "3 Tours+",
+  "t_cat_p_5": "State in southeastern Europe and southwest Asia, whose culture combines ancient Greek, Persian, Roman, Byzantine and Ottoman traditions.",
+
+  "t_cat_h_6": "Uzbekistan",
+  "t_cat_sub_h_6": "10 Tours+",
+  "t_cat_p_6": "Famous for its mosques, mausoleums and structures built along the Great Silk Road, the ancient trade route between China and the Mediterranean.",
+
+  "t_cat_h_7": "Egypt",
+  "t_cat_sub_h_7": "4 Tours+",
+  "t_cat_p_7": "Rich history, dating back more than five thousand years, is reminiscent of archaeological sites in the fertile Nile River valley.",
+
+  "t_cat_h_8": "India",
+  "t_cat_sub_h_8": "2 Tours+",
+  "t_cat_p_8": "Huge country in South Asia with a varied topography: its territory includes both the mountain peaks of the Himalayas and the coast of the Indian Ocean.",
+
+  "tour_block_h": "Browse New & Most Popular Tours",
+  "tour_block_sub_h": "Explore Our Tours",
+
+  "tour_buy_button": "Buy online",
+
+  "tour_name_1": "Malaysia tour",
+  "tour_group_1": "5 people",
+  "tour_duration_1": "8 days",
+  "tour_cost_1": "$250",
+
+  "tour_name_2": "Egypt tour",
+  "tour_group_2": "20 people",
+  "tour_duration_2": "5 days",
+  "tour_cost_2": "$250",
+
+  "tour_name_3": "Turkey tour",
+  "tour_group_3": "5 people",
+  "tour_duration_3": "5 days",
+  "tour_cost_3": "$250",
+
+  "tour_name_4": "Umra",
+  "tour_group_4": "10 people",
+  "tour_duration_4": "5 days",
+  "tour_cost_4": "$250",
+
+  "tour_name_5": "Haj",
+  "tour_group_5": "15 people",
+  "tour_duration_5": "5 days",
+  "tour_cost_5": "$250",
+
+  "sale_h": "Contact us wright now and get 20% off",
+  "sale_button_text": "Call now",
+
+  "video_block_h": "Views trip latest shots",
+  "video_block_sub_h": "Let's have an adventure together!",
+
+  "about_h": "We are Professional Planners For your Vacations",
+  "about_sub_h": "About Us",
+  "about_p": "Happy Vacations is a travel agency that will help you organize unforgettable trips around the world. We offer a wide selection of tours for all categories of travelers - from romantic trips for two to family holidays with children.",
+  "about_small_h": "Speak to our Destination Experts at Direct Call +998 90 122 68 88",
+  "about_p2": "Our team of professionals takes care of every detail of your trip:",
+
+  "about_li_1": "Booking tickets",
+  "about_li_2": "Booking hotels",
+  "about_li_3": "Developing individual routes and excursions.",
+
+  "about_button_text": "Find Out More",
+
+  "packages_block_h": "Browse Our Featured Packages",
+  "packages_block_sub_h": "Featured Packages",
+
+  "package_1_h": "Let's travel to Turkey",
+  "package_1_red_sub": "Starting at $1,200",
+  "package_1_black_sub": "Join us as we explore Instanbul culture and celebrate Turkey's Independence Weekend!",
+  "package_1_p": "Turkey is different from other countries that are popular for vacations due to its low prices and variety of tourist types. No matter which location you choose, it will be built on the principle of all together. And it's not just about staying at the hotel. Any popular resort is a collection of all entertainment and activities for children and adults.",
+  "package_1_li1": "Professional Tour Guide",
+  "package_1_li2": "Return airport transfers in AC vehicle",
+  "package_1_li3": "Transportation cost for carrying new materials/parts",
+  "package_1_button_text": "Book Now",
+
+  "package_2_h": "Benefit from a 15% discount make your reservations.",
+  "package_2_red_sub": "Starting at $1,200",
+  "package_2_black_sub": "No matter which resort you choose, you'll find exactly what you want from your unique vacation.",
+  "package_2_p": "Water parks and dolphinariums, coffee shops and shops, historical sights and unique places that have not changed for centuries, modern hotels with developed infrastructure, delicious fresh food, opportunities for outdoor recreation - every corner of Turkey is full of wonders.",
+  "package_2_li1": "1 Night Halong bay overnight cruise with tours, lunch & dinner",
+  "package_2_li2": "Return airport transfers in AC vehicle",
+  "package_2_li3": "Professional tour guide & drivers",
+  "package_2_button_text": "Book Now",
+
+  "testi_h": "What Our Travelers Say",
+  "testi_sub_h": "Testimonial",
+
+  "testi_text_1": "We wanted to relax with our daughter in Turkey, and on the recommendation of a friend we contacted the Happy Vacations Travel agency. Managers organized our tour efficiently. The hotel area is superbly equipped, the sea is within walking distance, food and drinks are very varied and of high quality. ",
+  "testi_name_1": "Munira Abbosova",
+
+  "testi_text_2": "Tour to Egypt was wonderful. I was especially delighted by the hotel's animation: discos, concerts, sporting events. Lunch and dinner were accompanied by live music and piano playing. We hope to go there next year",
+  "testi_name_2": "Mahliyo Yunusova",
+
+  "faq_h": "Frequently Asked Questions",
+  "faq_sub_h": "Most wanted Q & A",
+
+  "q1": "01. What are the best locations for wedding tours?",
+  "a1": "Some of the strangest places on earth are also the most sublime: from the UFO-like dragon's blood trees in Yemen to a rainbow-colored hot spring in Yellowstone to a bridge in Germany that looks like a leftover prop from Lord of the Rings.",
+
+  "q2": "02.Do you offer international packages?",
+  "a2": "Yes. You can see the list of international packages on Popular tours section of our website",
+
+  "q3": "03.Can we customize your package with you?",
+  "a3": "Customer satisfaction very important for us. So we will consider all of your demand and desires",
+
+  "q4": "04. Why would we book our package?",
+  "a4": "Everything is arranged for you by a professional tour operator, who also provides you with a guide, an itinerary, and a group of fellow travelers. This way, you can save time and energy, and focus on enjoying your trip. ",
+
+  "blog_h": "Stay Update with Travel Tips!",
+  "blog_sub": "Blog and News"
+}
