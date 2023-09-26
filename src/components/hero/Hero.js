@@ -1,47 +1,124 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useTranslation } from "react-i18next"
 
 import PhoneInput from "react-phone-input-2"
 import "react-phone-input-2/lib/style.css"
 
 
+
+
 import "./hero.css"
 
-// import img1 from '../../assets/images/destination/hd-1.webp'
-import img2 from '../../assets/images/destination/hd-2.webp'
-import img3 from '../../assets/images/destination/hd-3.webp'
-import img4 from '../../assets/images/destination/hd-4.webp'
+import 'reactjs-popup/dist/index.css'
+import DateRangeComp from "../DateRangeComp/DateRangeComp"
+import { DateRange } from "react-date-range"
+
+
+import format from "date-fns/format"
+import { addDays } from "date-fns"
+
+
+import 'react-date-range/dist/styles.css' // main style file
+import 'react-date-range/dist/theme/default.css' // theme css file
 
 const Hero = () => {
 
     const { i18n, t } = useTranslation(["home"])
 
-    const [vacdata, setVacdata] = useState("")
+
+    const [vacdate, setVacdate] = useState("")
     const [phone, setPhone] = useState("")
-    const [vaclocation, setVaclocation] = useState("where to")
-    const [vactype, setVactype] = useState("honeymoon")
+    const [vaclocation, setVaclocation] = useState("")
+    const [vactype, setVactype] = useState("")
 
 
     const cityOptions = [
-        { label: t("default_city"), value: "where to" },
-        { label: t("city1"), value: "samarkand" },
-        { label: t("city2"), value: "buxoro" },
-        { label: t("city3"), value: "toshkent" },
+        { label: t("default_city"), value: t("default_city") },
+        { label: t("city1"), value: t("city1") },
+        { label: t("city2"), value: t("city2") },
+        { label: t("city3"), value: t("city3") },
     ]
 
     const tourOptions = [
-        { label: t("default_tour_type"), value: "tour type" },
-        { label: t("ttype1"), value: "honey moon" },
-        { label: t("ttype2"), value: "haj" },
-        { label: t("ttype3"), value: "summer vac" },
+        { label: t("default_tour_type"), value: t("default_tour_type") },
+        { label: t("ttype1"), value: t("ttype1") },
+        { label: t("ttype2"), value: t("ttype2") },
+        { label: t("ttype3"), value: t("ttype3") },
     ]
+
+    const [range, setRange] = useState([
+
+        {
+            startDate: new Date(),
+            endDate: addDays(new Date(), 7),
+            key: 'selection'
+        }
+    ])
+
+    const [open, setOpen] = useState("")
+    const refOne = useRef(null)
+
+    useEffect(() => {
+        document.addEventListener("keydown", hideOnEscape, true)
+        document.addEventListener("click", hideOnClickOutside, true)
+    }, [])
+
+
+    const hideOnEscape = (e) => {
+        if (e.key === "Escape") {
+            setOpen(false)
+        }
+    }
+
+
+    const hideOnClickOutside = (e) => {
+        if (refOne.current && !refOne.current.contains(e.target)) {
+            setOpen(false)
+        }
+    }
+
+
+    const [errors, setErrors] = useState({})
+    const handleDateClick = () => {
+        setOpen(open => !open)
+        setVacdate(`${format(range[0].startDate, "MM/dd/yyyy")} - ${format(range[0].endDate, "MM/dd/yyyy")}`)
+    }
+
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(vaclocation, vactype)
+        const validationErrors = {}
 
-        let mytext = `Message: %0A <b>Location: </b>${vaclocation} %0A <b>Type: </b>${vactype}%0A <b>Date: </b>${vacdata} %0A <b>Phone: </b>${phone}`
+        if (!vaclocation.trim()) {
+            validationErrors.vaclocation = t("location_error_msg")
+        }
 
+        if (!vactype.trim()) {
+            validationErrors.vactype = t("type_error_msg")
+        }
+
+        if (!vacdate.trim()) {
+            validationErrors.vacdate = t("date_error_msg")
+        }
+
+        if (!phone.trim()) {
+            validationErrors.phone = t("phone_error_msg")
+        }
+
+        // else if (!/^\d{8}$/.test(phone)) {
+        //     validationErrors.phone = "phone is not valid"
+        // }
+
+
+        setErrors(validationErrors)
+
+        if (Object.keys(validationErrors).length === 0) {
+            alert(t("no_error_msg"))
+        }
+
+
+
+        let mytext = `Message: %0A <b>Location: </b>${vaclocation} %0A <b>Type: </b>${vactype}%0A <b>Date: </b>${vacdate} %0A <b>Phone: </b>${phone}`
         const tkn = "6392180338:AAG1YEMUgO_SX3hDWnVi_1YID6SjQzwJZEU"
         const chatid = "-4056611549"
         const sendurl = `https://api.telegram.org/bot${tkn}/sendMessage?chat_id=${chatid}&text=${mytext}&parse_mode=html`
@@ -50,6 +127,13 @@ const Hero = () => {
         let api = new XMLHttpRequest()
         api.open("GET", sendurl, true)
         api.send()
+
+
+        setVaclocation("")
+        setVactype("")
+        setVacdate("")
+        setPhone("")
+
     }
 
     return (
@@ -97,15 +181,16 @@ const Hero = () => {
 
                         <div className="lg:py-[50px] py-base lg:px-14 md:px-10 px-base mx-3 text-center backdrop-blur-[21px] lg">
                             <h3 className="text-white lg:text-2xl text-lg font-bold leading-1.3">{t("find_destination")}</h3>
-                            <div className="relative lg:mt-12 mt-base">
+                            <div className="relative lg:mt-12 mt-base custom-select">
                                 <select
+                                    // name="vaclocation"
                                     value={vaclocation}
                                     onChange={(e) => setVaclocation(e.target.value)}
-                                    className="select w-full bg-white outline-0 lg:h-17 h-14 pr-4 lg:pl-[60px] pl-[50px] lg:text-md text-base text-dark-2 placeholder:text-dark-2 font-medium"
+                                    className="hero-select w-full bg-white outline-0 lg:h-17 h-14 pr-4 lg:pl-[60px] pl-[50px] lg:text-md text-base text-dark-2 placeholder:text-dark-2 font-medium"
                                 >
 
                                     {cityOptions.map(cOption => (
-                                        <option value={cOption.value}>{cOption.label}</option>
+                                        <option className="select-option" value={cOption.value}>{cOption.label}</option>
                                     ))}
                                 </select>
 
@@ -123,15 +208,23 @@ const Hero = () => {
                                     </svg>
                                 </div>
                             </div>
+                            {errors.vaclocation && <span className="errorMsgSpan">{errors.vaclocation}</span>}
+
                             <div className="relative lg:mt-10 mt-6 select_style__one">
+
+
+
                                 <input
-                                    type="date"
-                                    value={vacdata}
-                                    onChange={(e) => setVacdata(e.target.value)}
-                                    className="w-full bg-white outline-0 lg:h-17 h-14 pr-4 lg:pl-[60px] pl-[50px] lg:text-md text-base text-dark-2 placeholder:text-dark-2 font-medium" />
+                                    value={`${format(range[0].startDate, "MM/dd/yyyy")} - ${format(range[0].endDate, "MM/dd/yyyy")}`}
+                                    readOnly
+                                    className="w-full bg-white outline-0 lg:h-17 h-14 pr-4 lg:pl-[60px] pl-[50px] lg:text-md text-base text-dark-2 placeholder:text-dark-2 font-medium"
+                                    onClick={() => handleDateClick()}
+
+
+                                />
 
                                 <div className="absolute top-1/2 -translate-y-1/2 left-5 lg:left-base max-w-[20px]">
-                                    {/* <svg
+                                    <svg
                                         width="20"
                                         height="20"
                                         viewBox="0 0 20 20"
@@ -150,13 +243,35 @@ const Hero = () => {
                                             d="M12.3667 12.4917L11.95 12.9167H11.9417L9.41665 15.4417C9.30832 15.55 9.08332 15.6667 8.92499 15.6834L7.79998 15.85C7.39165 15.9083 7.10833 15.6167 7.16667 15.2167L7.325 14.0833C7.35 13.925 7.45832 13.7083 7.56665 13.5917L10.1 11.0667L10.5167 10.6417C10.7917 10.3667 11.1 10.1667 11.4333 10.1667C11.7167 10.1667 12.025 10.3 12.3667 10.6417C13.1167 11.3917 12.875 11.9833 12.3667 12.4917Z"
                                             fill="white"
                                         />
-                                    </svg> */}
+                                    </svg>
                                 </div>
+
+                                <div ref={refOne}>
+
+                                    {open &&
+                                        <DateRange
+                                            onChange={item => setRange([item.selection])}
+                                            editableDateInputs={true}
+                                            moveRangeOnFirstSelection={false}
+                                            ranges={range}
+                                            months={1}
+                                            direction="vertical"
+                                            className="calendarElement"
+                                        //  locale={selectLocale(locale)}
+
+                                        />
+                                    }
+
+                                </div>
+
                             </div>
+                            {errors.vacdate && <span className="errorMsgSpan">{errors.vacdate}</span>}
+
                             <div className="relative lg:mt-10 mt-6 select_style__one">
-                                <select
+                                <select id="selection"
                                     value={vactype}
                                     onChange={(e) => setVactype(e.target.value)}
+                                    // name="vactype"
                                     className="w-full bg-white outline-0 lg:h-17 h-14 pr-4 lg:pl-[60px] pl-[50px] lg:text-md text-base text-dark-2 placeholder:text-dark-2 font-medium"
                                 >
 
@@ -182,8 +297,11 @@ const Hero = () => {
                                     </svg>
                                 </div>
                             </div>
+                            {errors.vactype && <span className="errorMsgSpan">{errors.vactype}</span>}
+
                             <br></br>
                             <PhoneInput
+                                name="phone"
                                 country={'uz'}
                                 value={phone}
                                 onChange={(value) => setPhone(value)}
@@ -192,6 +310,8 @@ const Hero = () => {
                                 }}
                                 className="w-full bg-white outline-0 lg:h-17 h-14 pr-4 lg:pl-[20px] pl-[20px] lg:text-md text-base text-dark-2 placeholder:text-dark-2 font-medium"
                             />
+                            {errors.phone && <span className="errorMsgSpan">{errors.phone}</span>}
+
                             <button
                                 type="submit"
                                 className="lg:mt-10 mt-6 block text-center bg-primary-1 lg:h-17 h-14 w-full text-white font-medium text-md"
@@ -254,6 +374,6 @@ const Hero = () => {
 
         </div>
     )
-}
 
+}
 export default Hero

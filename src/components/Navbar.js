@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import logoImg from "../assets/images/logo.png"
+import logoBrandImg from "../assets/images/logo-brand-name.png"
 import langImg from "../assets/images/lang.png"
 
 import { Link } from 'react-scroll'
@@ -213,8 +214,10 @@ const Navbar = () => {
                 </div >
                 <div className="mobile-menu xl:hidden flex justify-between items-center relative">
                     <Link to="hero" spy={true} smooth={true} offset={-150} duration={500} className="shrink-0">
-                        <img className="w-logo" src={logoImg} alt="logo" />
+                        <img className="w-logo" src={logoBrandImg} alt="logo" />
                     </Link>
+
+                    {/* <h1 className="mobile-brand-name">Happy Vacations</h1> */}
 
                     <div className="space-x-4 flex items-center">
                         <a href="#"

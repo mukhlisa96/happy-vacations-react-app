@@ -1,5 +1,7 @@
 .react-tel-input .flag-dropdown {
     padding: 7px;
+    border: none;
+    border-radius: 0;
 }
 
 .react-tel-input .form-control {
@@ -14,10 +16,7 @@
     background: none;
 }
 
-
-
-
-input[type="date"]::-webkit-calendar-picker-indicator {
+hero-select input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
     opacity: 1;
     display: block;
@@ -46,4 +45,18 @@ select {
     .languageDropdown {
         margin-top: 7px;
     }
+}
+
+.custom-select {}
+
+.react-tel-input .country-list {
+    text-align: left;
+}
+
+#selection>option {
+    background-color: red;
+}
+
+.select_style__one {
+    border-radius: 0;
 }

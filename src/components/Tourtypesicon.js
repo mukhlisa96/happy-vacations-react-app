@@ -47,11 +47,11 @@ const Tourtypesicon = () => {
                         breakpoints={{
                             200: {
                                 // width: 576,
-                                slidesPerView: 2,
+                                slidesPerView: 1,
                             },
                             768: {
                                 // width: 768,
-                                slidesPerView: 3,
+                                slidesPerView: 2,
                             },
                             1200: {
                                 // width: 768,

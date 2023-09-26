@@ -23,6 +23,21 @@ const Instaimages = () => {
                 <div className="swiper">
                     <div className="">
                         <Swiper
+
+                            breakpoints={{
+                                200: {
+                                    // width: 576,
+                                    slidesPerView: 2,
+                                },
+                                768: {
+                                    // width: 768,
+                                    slidesPerView: 3,
+                                },
+                                1200: {
+                                    // width: 768,
+                                    slidesPerView: 5,
+                                },
+                            }}
                             modules={[Autoplay]}
                             spaceBetween={2}
                             slidesPerView={5}

@@ -5,6 +5,12 @@
   "tour_type": "Tour type",
   "hero_form_button": "Enquire now",
 
+  "type_error_msg": "Please, choose tour type!",
+  "location_error_msg": "Please, choose location!",
+  "date_error_msg": "Please, choose date range!",
+  "phone_error_msg": "Please, enter phone number!",
+  "no_error_msg": "Request sent! We will call you soon",
+
   "default_city": "Where to ?",
   "city1": "Samarkand",
   "city2": "Bukhara",
@@ -30,7 +36,7 @@
 
   "black_line_text": "20% discount for every trip on the occasion of the opening",
 
-  "travel_category_sub_h": "We are ready to offer you the best tours that will leave unforgettable impressions for a lifetime.",
+  "travel_category_sub_h": "Best tours for you",
   "travel_category_h": "Our Popular Tours Type",
 
   "t_cat_h_1": "Malaysia",
@@ -85,17 +91,17 @@
   "tour_duration_3": "5 days",
   "tour_cost_3": "$250",
 
-  "tour_name_4": "Umra",
+  "tour_name_4": "Saudi Arabia tour",
   "tour_group_4": "10 people",
   "tour_duration_4": "5 days",
   "tour_cost_4": "$250",
 
-  "tour_name_5": "Haj",
+  "tour_name_5": "Uzbekistan tour",
   "tour_group_5": "15 people",
   "tour_duration_5": "5 days",
   "tour_cost_5": "$250",
 
-  "sale_h": "Contact us wright now and get 20% off",
+  "sale_h": "Сall us now and get 20% off",
   "sale_button_text": "Call now",
 
   "video_block_h": "Views trip latest shots",

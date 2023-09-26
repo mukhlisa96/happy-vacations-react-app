@@ -59,6 +59,51 @@
         margin-left: 10px;
         margin-top: 7px;
     }
+
+    .accordion__heading>div {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:768px) {
+    .sw-slider {
+        min-height: 100px;
+        padding: 20px;
+    }
+
+    .section-title-v1 {
+        font-size: 25px;
+    }
+
+    .section-sub-title-v1 {
+        font-size: 15px;
+    }
+
+    .react-tel-input .form-control {
+        padding-left: 60px !important;
+    }
+
+    .w-logo {
+        height: 60px;
+        width: auto;
+        margin-bottom: 3px;
+    }
+
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link.nav-link-sm {
+    font-family: var(--h-font-fam);
+    /* font-size: 12px; */
+}
+
+.mobile-brand-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2552c0;
 }
 
 .ptImages {
@@ -68,4 +113,49 @@
 
 .footerInput>input.form-control {
     padding-left: 20%;
+}
+
+.mobil-menu.mm-active {
+    /* background-color: blue; */
+
+    width: 100vw;
+    margin-left: -12px;
+}
+
+.text-primary-1 {
+    font-family: var(--sub-h-font-fam);
+}
+
+.text-dark-1 {
+    font-family: var(--h-font-fam);
+}
+
+img.brand-footer {
+    height: 90px;
+}
+
+.rdrCalendarWrapper {
+    color: #000000;
+    font-size: 12px;
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    width: 100%;
+}
+
+.rdrMonth {
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    .rdrCalendarWrapper {
+        left: -54px;
+        width: 100vw;
+    }
+}
+
+.errorMsgSpan {
+    color: red;
+    font-size: 15px;
+    font-family: var(--h-font-fam);
 }

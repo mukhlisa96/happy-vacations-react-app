@@ -1,0 +1,19 @@
+.rdrCalendarWrapper {
+    color: #000000;
+    font-size: 12px;
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    width: 100%;
+}
+
+.rdrMonth {
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    .rdrCalendarWrapper {
+        left: -54px;
+        width: 100vw;
+    }
+}

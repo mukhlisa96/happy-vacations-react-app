@@ -5,6 +5,12 @@
   "tour_type": "Sayohat turi",
   "hero_form_button": "So'rov Yuboring",
 
+  "type_error_msg": "Iltimos, tur turini tanlang!",
+  "location_error_msg": "Iltimos, joylashuvni tanlang!",
+  "date_error_msg": "Iltimos, sana oralig'ini tanlang!",
+  "phone_error_msg": "Iltimos, telefon raqam kiriting!",
+  "no_error_msg": "So'rov yuborildi! Tez orada sizga qo'ng'iroq qilamiz",
+
   "default_city": "Joy tanlang",
   "city1": "Samarqand",
   "city2": "Buxoro",
@@ -30,7 +36,7 @@
 
   "black_line_text": "Ochilish munosabati bilan har bir sayohat uchun 20% chegirma",
 
-  "travel_category_sub_h": "Biz sizga bir umrga unutilmas taassurot qoldiradigan eng yaxshi turlarni taklif qilishga tayyormiz.",
+  "travel_category_sub_h": "Biz bilan sayohat qiling",
   "travel_category_h": "Sayohat turlari",
 
   "t_cat_h_1": "Malayziya",
@@ -85,17 +91,17 @@
   "tour_duration_3": "5 kun",
   "tour_cost_3": "$250",
 
-  "tour_name_4": "Umra",
+  "tour_name_4": "Saudiya Arabistoniga sayohat",
   "tour_group_4": "10 kishi",
   "tour_duration_4": "5 kun",
   "tour_cost_4": "$250",
 
-  "tour_name_5": "Haj",
+  "tour_name_5": "O'zbekiston bo'ylab sayohat",
   "tour_group_5": "15 kishi",
   "tour_duration_5": "5 kun",
   "tour_cost_5": "$250",
 
-  "sale_h": "Biz bilan hoziroq bog'laning va 20% chegirmaga ega bo'ling",
+  "sale_h": "Qo'ng'iroq qiling,  20% chegirmaga ega bo'ling",
   "sale_button_text": "Hozir qo'ng'iroq qiling",
 
   "video_block_h": "Sayohatlardan kadrlar tomosha qiling!",

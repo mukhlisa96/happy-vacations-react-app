@@ -4,6 +4,8 @@ import { Link } from 'react-scroll'
 import PhoneInput from "react-phone-input-2"
 import "react-phone-input-2/lib/style.css"
 
+import logoBrandLight from "../assets/images/logo-light.png"
+
 const Footer = () => {
     const { i18n, t } = useTranslation(["common"])
 
@@ -37,7 +39,7 @@ const Footer = () => {
                         className="flex lg:justify-between justify-center items-center flex-wrap gap-base pb-base"
                     >
                         <a href="#">
-                            <img src="assets/images/logo-white.png" alt="placeholder" />
+                            <img src={logoBrandLight} alt="placeholder" className="brand-footer" />
                         </a>
                         <div
                             className="flex align-middle justify-center lg:gap-x-9 gap-y-5 gap-x-7 flex-wrap"
@@ -198,6 +200,39 @@ const Footer = () => {
                                         </div>
                                         <a href="#" className="leading-1.5 pl-[10px] text-base">{t("address")}</a>
                                     </li>
+
+
+                                    <li
+                                        className="mt-5 first:mt-0 flex items-center lg:justify-start justify-center text-stock-1 hover:text-primary-1 duration-200"
+                                    >
+                                        <div className="text-primary-1 shrink-0">
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 20 20"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M14.1667 17.0832H5.83341C3.33341 17.0832 1.66675 15.8332 1.66675 12.9165V7.08317C1.66675 4.1665 3.33341 2.9165 5.83341 2.9165H14.1667C16.6667 2.9165 18.3334 4.1665 18.3334 7.08317V12.9165C18.3334 15.8332 16.6667 17.0832 14.1667 17.0832Z"
+                                                    stroke="currentColor"
+                                                    strokeWidth="1.5"
+                                                    strokeMiterlimit="10"
+                                                    strokeLinecap="round"
+                                                />
+                                                <path
+                                                    d="M14.1666 7.5L11.5582 9.58333C10.6999 10.2667 9.29158 10.2667 8.43325 9.58333L5.83325 7.5"
+                                                    stroke="currentColor"
+                                                    strokeWidth="1.5"
+                                                    strokeMiterlimit="10"
+                                                    strokeLinecap="round"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <a
+                                            href="mailto:example@gmail.com"
+                                            className="leading-1.5 pl-[10px] text-base">happyvacations@gmail.com</a>
+                                    </li>
                                     <li
                                         className="mt-5 first:mt-0 flex items-center lg:justify-start justify-center text-stock-1 hover:text-primary-1 duration-200"
                                     >
@@ -273,37 +308,6 @@ const Footer = () => {
                                     </li>
 
 
-                                    <li
-                                        className="mt-5 first:mt-0 flex items-center lg:justify-start justify-center text-stock-1 hover:text-primary-1 duration-200"
-                                    >
-                                        <div className="text-primary-1 shrink-0">
-                                            <svg
-                                                width="20"
-                                                height="20"
-                                                viewBox="0 0 20 20"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    d="M14.1667 17.0832H5.83341C3.33341 17.0832 1.66675 15.8332 1.66675 12.9165V7.08317C1.66675 4.1665 3.33341 2.9165 5.83341 2.9165H14.1667C16.6667 2.9165 18.3334 4.1665 18.3334 7.08317V12.9165C18.3334 15.8332 16.6667 17.0832 14.1667 17.0832Z"
-                                                    stroke="currentColor"
-                                                    strokeWidth="1.5"
-                                                    strokeMiterlimit="10"
-                                                    strokeLinecap="round"
-                                                />
-                                                <path
-                                                    d="M14.1666 7.5L11.5582 9.58333C10.6999 10.2667 9.29158 10.2667 8.43325 9.58333L5.83325 7.5"
-                                                    stroke="currentColor"
-                                                    strokeWidth="1.5"
-                                                    strokeMiterlimit="10"
-                                                    strokeLinecap="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <a
-                                            href="mailto:example@gmail.com"
-                                            className="leading-1.5 pl-[10px] text-base">happyvacations@gmail.com</a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -333,10 +337,12 @@ const Footer = () => {
                                 />
                             </svg>
                         </Link>
-                        <p>{t("copywright")}</p>
-                        <p>
-                            <a href="#" className="hover:text-primary-1 duration-200">{t("wrights")}</a>
-                        </p>
+                        <div className="w-full flex justify-between">
+                            <p>{t("copywright")}</p>
+                            <p>
+                                <a href="#" className="hover:text-primary-1 duration-200">{t("wrights")}</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
